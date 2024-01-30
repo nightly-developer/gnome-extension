@@ -1,0 +1,10 @@
+{
+    "name" : "Example#10",
+    "description" : "Drag and Drop (DND)",
+    "shell-version" : [
+        "3.36"
+    ],
+    "url" : "",
+    "uuid" : "example10@example.com",
+    "version" : 1.0
+}

@@ -1,0 +1,10 @@
+{
+    "name" : "Example#8",
+    "description" : "Panel Menu",
+    "shell-version" : [
+        "3.36"
+    ],
+    "url" : "",
+    "uuid" : "example8@example.com",
+    "version" : 1.0
+}

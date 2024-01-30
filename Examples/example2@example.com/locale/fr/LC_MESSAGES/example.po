@@ -1,0 +1,29 @@
+# French translations for example package.
+# Copyright (C) 2020 THE example'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the example package.
+# ice <justperfection.channel@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: example 2@example.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-20 00:35-0700\n"
+"PO-Revision-Date: 2020-06-20 00:35-0700\n"
+"Last-Translator: ice <justperfection.channel@gmail.com>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: extension.js:13
+msgid "Hello My Friend"
+msgstr "Bonjour, mon ami"
+
+#: extension.js:14
+#, javascript-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d article"
+msgstr[1] "%d articles"

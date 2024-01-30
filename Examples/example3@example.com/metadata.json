@@ -1,0 +1,10 @@
+{
+    "name" : "Example#3",
+    "description" : "Schema (GSettings)",
+    "shell-version" : [
+        "3.36"
+    ],
+    "url" : "",
+    "uuid" : "example3@example.com",
+    "version" : 1.0
+}

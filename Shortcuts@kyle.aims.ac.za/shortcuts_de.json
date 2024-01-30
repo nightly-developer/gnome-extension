@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Fensternavigation",
+        "shortcuts": [
+            {
+                "key": "Alt + Tab",
+                "description": "Schaltet zwischen Fenster um"
+            },
+            {
+                "key": "Super",
+                "description": "Übersicht einblenden"
+            },
+            {
+                "key": "Super + Links/Rechts",
+                "description": "Fenster links oder rechts legen"
+            },
+            {
+                "key": "Super + Up",
+                "description": "Fenster maximieren"
+            },
+            {
+                "key": "Alt + F4",
+                "description": "Fenster schliessen"
+            },
+            {
+                "key": "Super + Mause ziehen",
+                "description": "Fenster verschieben"
+            },
+            {
+                "key": "F11",
+                "description": "Vollbild/widerherstellen"
+            },
+            {
+                "key": "Super + H",
+                "description": "Fenster minimieren"
+            },
+            {
+                "key": "Super + Bild ab",
+                "description": "Auf nächsten Arbeitsbereich wechseln"
+            },
+            {
+                "key": "Super + Bild auf",
+                "description": "Auf vorigen Arbeitsbereich wechseln"
+            },
+            {
+                "key": "Super + Home/Pos1",
+                "description": "Auf ersten Arbeitsbereich wechseln"
+            },
+            {
+                "key": "Super + Ende",
+                "description": "Auf letzen Arbeitsbereich wechseln"
+            },
+            {
+                "key": "Super + Tab",
+                "description": "Zur nächsten Anwendung wechseln"
+            }
+        ]
+    },
+    {
+        "name": "Anwendungen ausführen und schliessen",
+        "shortcuts": [
+            {
+                "key": "Alt + F2",
+                "description": "Dialog 'Einen Befehl ausführen'"
+            },
+            {
+                "key": "Super + 1,2,3,...",
+                "description": "Anwendung nach Position im Starter ausführen"
+            },
+            {
+                "key": "Super + T",
+                "description": "Terminal öffnen"
+            },
+            {
+                "key": "Super + Q",
+                "description": "Anwendung verlassen"
+            }
+        ]
+    },
+    {
+        "name": "Systemkurzbefehle",
+        "shortcuts": [
+            {
+                "key": "Super + Space",
+                "description": "Tastaturlayout wechseln"
+            },
+            {
+                "key": "Ctrl + Alt + Del",
+                "description": "Öffnet Herunterfahren-Menü"
+            },
+            {
+                "key": "Super + L",
+                "description": "Bildschirm sperren"
+            },
+            {
+                "key": "Alt + F2, r",
+                "description": "GNOME Shell neu starten"
+            },
+            {
+                "key": "Alt + Super + 8",
+                "description": "Zoom "
+            },
+            {
+                "key": "Alt + Super + S",
+                "description": "Bildschirmleser umschalten"
+            }
+        ]
+    },
+    {
+        "name": "Anwendungskurzbefehle",
+        "shortcuts": [
+            {
+                "key": "Ctrl + W",
+                "description": "Tab in aktiver Anwendung schliessen"
+            },
+            {
+                "key": "Ctrl + T",
+                "description": "Tab in aktiver Anwendung öffnen"
+            },
+            {
+                "key": "Ctrl + Shift + T",
+                "description": "Wiederherstellen zuletzt geschlossner Tab im Webbrowser"
+            },
+            {
+                "key": "F5",
+                "description": "Evince (Dokumentbetrachter) Präsentationsmodus)"
+            },
+            {
+                "key": "F9",
+                "description": "LibreOffice Präsentationsmodus"
+            }
+        ]
+    },
+    {
+        "name": "Bildschirmfoto-Kurzbefehle",
+        "shortcuts": [
+            {
+                "key": "Alt + Print",
+                "description": "Bildschirmfoto aufnehmen"
+            },
+            {
+                "key": "Shift + Print",
+                "description": "Bildschirmfoto von Bereich machen"
+            },
+            {
+                "key": "Ctrl + Print",
+                "description": "Bildschirmfoto in Zwischenablage aufnehmen"
+            },
+            {
+                "key": "Ctrl + Alt + Shift + R",
+                "description": "Videoaufnahme vom Arbeitsbereich"
+            }
+        ]
+    }
+]

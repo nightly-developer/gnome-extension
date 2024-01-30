@@ -1,0 +1,10 @@
+{
+    "name" : "Example#6",
+    "description" : "Create Another Panel",
+    "shell-version" : [
+        "3.36"
+    ],
+    "url" : "",
+    "uuid" : "example6@example.com",
+    "version" : 1.0
+}

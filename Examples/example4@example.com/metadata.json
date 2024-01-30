@@ -1,0 +1,10 @@
+{
+    "name" : "Example#4",
+    "description" : "Prefs",
+    "shell-version" : [
+        "3.36"
+    ],
+    "url" : "",
+    "uuid" : "example4@example.com",
+    "version" : 1.0
+}

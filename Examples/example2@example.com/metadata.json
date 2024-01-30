@@ -1,0 +1,10 @@
+{
+    "name" : "Example#2",
+    "description" : "Gettext",
+    "shell-version" : [
+        "3.36"
+    ],
+    "url" : "",
+    "uuid" : "example2@example.com",
+    "version" : 1.0
+}

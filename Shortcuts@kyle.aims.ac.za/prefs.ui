@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="Shortcuts">
+    <template class="ShortcutsPrefsWidget4" parent="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+            <object class="GtkCheckButton" id="file_chooser_chkbutcusfile">
+                <property name="label" translatable="yes">Custom Shortcuts File</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">False</property>
+                <property name="tooltip-text" translatable="yes">Custom Shortcuts File</property>
+                <property name="use-underline">True</property>
+                <signal name="toggled" handler="_onChkCusFileClicked" swapped="no"/>
+            </object>
+        </child>
+        <child>
+            <object class="GtkButton" id="file_chooser_button">
+                <property name="halign">end</property>
+                <property name="valign">center</property>
+                <property name="label" translatable="yes">Select shortcut file</property>
+                <signal name="clicked" handler="_onBtnClicked" swapped="no"/>
+            </object>
+        </child>
+        <child>
+            <object class="GtkCheckButton" id="file_chooser_chkbuttrayicon">
+                <property name="label" translatable="yes">Show tray icon</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">False</property>
+                <property name="tooltip-text" translatable="yes">Show tray icon</property>
+                <property name="use-underline">True</property>
+                <signal name="toggled" handler="_onChkTrayIconClicked" swapped="no"/>
+            </object>
+        </child>
+        <child>
+            <object class="GtkCheckButton" id="file_chooser_chkbuttransp">
+                <property name="label" translatable="yes">Use transparency</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">False</property>
+                <property name="tooltip-text" translatable="yes">Use transparency</property>
+                <property name="use-underline">True</property>
+                <signal name="toggled" handler="_onChkTransparencyClicked" swapped="no"/>
+            </object>
+        </child>
+    </template>
+    <object class="GtkFileChooserNative" id="file_chooser">
+        <property name="title" translatable="yes">Select shortcut file</property>
+        <property name="select-multiple">0</property>
+        <property name="action">open</property>
+        <property name="modal">1</property>
+        <signal name="response" handler="_onFileChooserResponse" swapped="no"/>
+    </object>
+</interface>
